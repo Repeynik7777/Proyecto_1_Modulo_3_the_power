@@ -1,0 +1,38 @@
+Proyecto_1: MODULO_3: Dashboard & Análisis de Datos  
+
+URL de base de datos: https://www.kaggle.com/datasets/arifmia/super-shop-sales-dataset
+URL de Dashboard con Análisis de Datos: https://docs.google.com/spreadsheets/d/1EQEiagHBb_yb2gWBrMfTFiUPeLM4hJQtuxsCHb9DphU/edit?usp=sharing
+
+
+====================================================
+ 📊 Análisis de ventas de Supermercado
+====================================================
+
+📖 Descripción--------------------------------------
+
+Tenemos un conjunto de datos de un Supermercado.
+Datos disponibles para analiza son: ID de producto, Categoría de producto, Nombre de Marca de producto, precio, descuento aplicable para venta, precio final de producto, cantidad de los productos vendidos, rating de cada producto, opiniones de los clientes, genero de cliente, su edad, tipo de cliente, tipo de pago que prefiere cliente, se puede o no devolverse el producto.
+
+Esta hecho limpieza previa de datos y transformación de datos a formato adecuado de información que tiene que reflejar estos datos, también para saber Beneficio total de ventas, se añadido una columna y calculado Beneficio total que obtiene supermercado por cada producto, Producto ID es variable única, analizando esta columna, hemos verificado  si hay duplicados de datos.
+
+Procesando análisis previo, podemos decir, que este supermercado tienen clientes 50/50 - hombres y mujeres. 
+Durante del periodo analizado, ha vendido 249 mil productos con Beneficio total 478,47 millones €.
+
+Según tipo de cliente, mas popular es clientes con ficha de suscripción "regular", pero distribución de fichas de los clientes esta mas o menos equilibrada: 35% - clientes regulares, 32,7% clientes con tarifa VIP y 32,3% clientes nuevos.
+
+Cantidad de ventas y Beneficio por Categorías de productos no indica ni un patrón excepcional - cada categoría de 5 existentes, cada sector ocupa mas o menos 19-21% de ventas totales. 
+
+Líder de ventas es marca Samsung, pero Beneficios obtenidos por ventas de marca Samsung y Apple son casi iguales, supongo por precio mas alto de marca Apple.
+
+Según Dashboard ni descuentos ni rating de producto ni opiniones de clientes no tienen un impacto directo en el comportamiento de compra de los clientes.
+
+En Dashboard están presentados una serie de gráficos, que visualizan análisis de ventas de supermercado. Se puede observar, que ventas muestran cierta estabilidad sin datos extremos, distribución de ventas entre hombres y mujeres esta mas o menos 50/50%, solo la categoría de "Juguetes" tiene máxima diferencia a favor de hombres.
+
+Se observa una buena implicación de los nuevos clientes en la venta - este sector ocupa 35% de ventas totales.
+
+📖Conclusión --------------------------------------------
+Este supermercado tiene cierta estabilidad de ventas durante de periodo analizado.
+
+📖Recomendación -----------------------------------------
+Desarrollar unas campañas de promoción y publicidad para aumentar volumen de ventas en días festivos. Desarrollar la sistema de premios para clientes estables para mantener estaos clientes en su base y aumentar volumen de ventas regulares.
+

@@ -30,6 +30,9 @@ En Dashboard están presentados una serie de gráficos, que visualizan análisis
 
 Se observa una buena implicación de los nuevos clientes en la venta - este sector ocupa 35% de ventas totales.
 
+Para procesar el Análisis mas profundo, recomendamos a cliente recopilar siguiente datos: cantidad ventas por fecha y días de la semana, para indicar patrones del comportamiento de los clientes en días festivos y en fin de semana. 
+
+
 📖Conclusión --------------------------------------------
 Este supermercado tiene cierta estabilidad de ventas durante de periodo analizado.
 

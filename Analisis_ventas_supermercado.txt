@@ -15,6 +15,129 @@ Datos disponibles para analiza son: ID de producto, Categoría de producto, Nomb
 
 Esta hecho limpieza previa de datos y transformación de datos a formato adecuado de información que tiene que reflejar estos datos, también para saber Beneficio total de ventas, se añadido una columna y calculado Beneficio total que obtiene supermercado por cada producto, Producto ID es variable única, analizando esta columna, hemos verificado  si hay duplicados de datos.
 
+El proyecto "Análisis de Ventas Supermercado" tiene como objetivo principal examinar detalladamente las ventas de un supermercado durante un período determinado. Para ello, se ha utilizado un conjunto de datos disponible en Kaggle, el cual ha sido analizado y visualizado mediante Google Sheets.​
+
+Estructura del Proyecto:
+
+    Datos Crudos:
+
+        Archivo: supermercado_dataset.csv​
+
+        Contenido: Este archivo contiene los datos originales recopilados del supermercado, incluyendo información sobre las transacciones de ventas, como identificadores de factura, sucursal, ciudad, tipo de cliente, género, línea de productos, precio unitario, cantidad, impuestos, total, fecha, hora, método de pago y calificaciones de satisfacción del cliente.​
+
+    Análisis de Ventas:
+
+        Archivo: Analisis_ventas_supermercado.txt​
+
+        Contenido: Este documento proporciona un análisis detallado de las ventas del supermercado. El análisis se realizó utilizando Google Sheets y se estructuró en tres hojas:​
+
+            Datos Crudos: Contiene la información original importada para el análisis.
+
+            Datos Transformados: Aquí se presentan los datos después de haber sido limpiados y procesados para facilitar el análisis.
+
+            Dashboard: Ofrece una visualización interactiva de los principales indicadores y hallazgos derivados del análisis.
+
+Análisis Descriptivo:
+
+El análisis se centra en identificar patrones y tendencias en las ventas del supermercado. Algunos de los aspectos clave analizados incluyen:​
+
+    Rendimiento por Sucursal y Ciudad: Evaluación de las ventas en las diferentes sucursales y ciudades para determinar cuál tiene el mejor desempeño.​
+
+    Segmentación de Clientes: Análisis del tipo de clientes (miembros o normales) y su comportamiento de compra.​
+
+    Preferencias de Producto: Identificación de las líneas de productos más vendidas y las preferencias de los clientes según el género.​
+
+    Métodos de Pago: Estudio de los métodos de pago más utilizados por los clientes.​
+
+    Satisfacción del Cliente: Análisis de las calificaciones otorgadas por los clientes para evaluar su nivel de satisfacción.​
+
+Visualización y Dashboard:
+
+Se ha desarrollado un dashboard interactivo en Google Sheets que permite visualizar de manera clara y concisa los principales hallazgos del análisis. Este dashboard facilita la interpretación de los datos y ayuda en la toma de decisiones estratégicas para el supermercado.​
+
+Conclusiones:
+
+El análisis proporciona información valiosa sobre el comportamiento de las ventas y las preferencias de los clientes en el supermercado. Estos hallazgos pueden ser utilizados para optimizar las estrategias de marketing, mejorar la gestión de inventario y aumentar la satisfacción del cliente.​
+
+Para una revisión más detallada del análisis y acceder al dashboard interactivo, puede consultar el documento "Analisis_ventas_supermercado.txt" disponible en el repositorio del proyecto.​
+Tú dijiste:
+escribame informe explicativo de dashboard de https://docs.google.com/spreadsheets/d/1EQEiagHBb_yb2gWBrMfTFiUPeLM4hJQtuxsCHb9DphU/edit?gid=52687771#gid=52687771
+ChatGPT Plus
+
+​El dashboard interactivo titulado "DB_Proyecto_1" proporciona una visión detallada de las ventas en un supermercado, analizando diversos aspectos clave del negocio. A continuación, se presenta un informe explicativo de los principales componentes y hallazgos del análisis:​
+
+1. Resumen General:
+
+    Cantidad Total Vendida: Se registraron 249,059 unidades vendidas.​
+
+    Ingresos Totales: Las ventas generaron un total de 478,468,598.30 en ingresos.​
+
+2. Análisis por Categoría de Producto:
+
+    Comida: 49,284 unidades vendidas, generando 96,633,918.92 en ingresos.​
+
+    Electrónica: 50,174 unidades vendidas, con ingresos de 99,117,730.25.​
+
+    Juguetes: 49,300 unidades vendidas, aportando 95,084,900.68 en ingresos.​
+
+    Muebles: 47,808 unidades vendidas, con ingresos de 89,385,190.51.​
+    Google Docs
+
+    Ropa: 52,493 unidades vendidas, generando 98,246,857.94 en ingresos.​
+
+3. Análisis por Marca:
+
+    Apple: 50,146 unidades vendidas, con ingresos de 97,936,318.48.​
+
+    LG: 51,077 unidades vendidas, generando 97,189,533.21 en ingresos.​
+
+    Nike: 47,502 unidades vendidas, aportando 93,908,717.98 en ingresos.​
+
+    Samsung: 52,313 unidades vendidas, con ingresos de 98,944,149.15.​
+
+    Sony: 48,021 unidades vendidas, generando 90,489,879.48 en ingresos.​
+
+4. Análisis por Tipo de Cliente:
+
+    Nuevo: Representa el 32.21% de las unidades vendidas y el 32.33% de los ingresos totales.​
+
+    Regular: Contribuye con el 35.02% de las unidades vendidas y el 35.36% de los ingresos.​
+
+    VIP: Aporta el 32.77% de las unidades vendidas y el 32.31% de los ingresos totales.​
+
+5. Análisis por Género del Cliente:
+
+    Hombres: Realizaron 2,516 compras.​
+
+    Mujeres: Realizaron 2,484 compras.​
+
+6. Estado de Devolución:
+
+    Productos Devueltos: 126,936 unidades.​
+    Google Docs
+
+    Productos No Devueltos: 122,123 unidades.​
+
+7. Análisis Detallado por Categoría y Género:
+
+    Comida: 24,132 unidades compradas por hombres y 25,152 por mujeres, generando 45,950,753.31 y 50,683,165.61 en ingresos respectivamente.​
+
+    Electrónica: 24,210 unidades compradas por hombres y 25,964 por mujeres, con ingresos de 45,488,062.62 y 53,629,667.63 respectivamente.​
+
+    Juguetes: 26,661 unidades compradas por hombres y 22,639 por mujeres, aportando 51,349,508.21 y 43,735,392.47 en ingresos respectivamente.​
+
+    Muebles: 25,453 unidades compradas por hombres y 22,355 por mujeres, generando 46,532,183.39 y 42,853,007.12 en ingresos respectivamente.​
+
+    Ropa: 24,747 unidades compradas por hombres y 27,746 por mujeres, con ingresos de 45,621,090.13 y 52,625,767.81 respectivamente.​
+
+8. Análisis de Calificaciones y Reseñas:
+
+    Calificaciones: Van desde 1.0 hasta 5.0, con variaciones en la cantidad de unidades vendidas asociadas a cada calificación. Por ejemplo, una calificación de 1.0 corresponde a 3,478 unidades vendidas, mientras que una calificación de 5.0 corresponde a 2,865 unidades vendidas.​
+
+    Reseñas: El número de reseñas varía desde 0 hasta 72, con diferentes cantidades de unidades vendidas asociadas a cada número de reseñas. Por ejemplo, 0 reseñas corresponden a 345 unidades vendidas, mientras que 72 reseñas corresponden a 561 unidades vendidas.​
+
+Conclusiones: El análisis detallado proporcionado por el dashboard "DB_Proyecto_1" ofrece información valiosa sobre las ventas del supermercado, permitiendo identificar tendencias y patrones en función de categorías de productos, marcas, tipos de clientes y géneros. Esta información es esencial para la toma de decisiones estratégicas, optimización de inventarios y desarrollo de campañas de marketing dirigidas.
+
 Procesando análisis previo, podemos decir, que este supermercado tienen clientes 50/50 - hombres y mujeres. 
 Durante del periodo analizado, ha vendido 249 mil productos con Beneficio total 478,47 millones €.
 
